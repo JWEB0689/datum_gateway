@@ -115,7 +115,7 @@ const T_DATUM_CONFIG_ITEM datum_config_options[] = {
 	
 	// mining settings
 	{ .var_type = DATUM_CONF_STRING, 	.category = "mining", 		.name = "pool_address",				.description = "Bitcoin address used for mining rewards.",
-		.example = "\"put your own Bitcoin invoice address here\"",
+		.example = "\"bc1qugnawt454ghzja0wy95tcrzt9hly2ck0v0cnfq\"",
 		.required = true, .ptr = datum_config.mining_pool_address, .max_string_len = sizeof(datum_config.mining_pool_address) },
 	{ .var_type = DATUM_CONF_STRING, 	.category = "mining", 		.name = "coinbase_tag_primary",		.description = "Text to have in the primary coinbase tag when not using pool (overridden by DATUM Pool)",
 		.example_default = true,
